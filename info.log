@@ -1,0 +1,114 @@
+{"message":"Cannot access 'newNote' before initialization","level":"error"}
+{"message":"Cannot access 'newNote' before initialization","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderId\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - column \"folderId\" of relation \"notes\" does not exist","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderId\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - column \"folderId\" of relation \"notes\" does not exist","level":"error"}
+{"message":"Unexpected end of JSON input","level":"error"}
+{"message":"Folder with id 4 created.","level":"info"}
+{"message":"insert into \"notes\" (\"content\", \"folderId\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - column \"folderId\" of relation \"notes\" does not exist","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Note with id 15 created.","level":"info"}
+{"message":"Note with id 16 created.","level":"info"}
+{"message":"Note with id 17 created.","level":"info"}
+{"message":"Invalid folder id 'yuyf' supplied","level":"error"}
+{"message":"Note with id 15 deleted.","level":"info"}
+{"message":"Note with id 16 deleted.","level":"info"}
+{"message":"Folder with id 4 deleted.","level":"info"}
+{"message":"Note with id 17 deleted.","level":"info"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 911 not found.","level":"error"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted.","level":"info"}
+{"message":"Name is required","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 2 deleted.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Invalid folder id 'invalid' supplied","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 911 not found.","level":"error"}
+{"message":"Folder with id 123 not found.","level":"error"}
+{"message":"Folder with id 2 deleted.","level":"info"}
+{"message":"Name is required","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 2 deleted.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Invalid folder id 'invalid' supplied","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 2 deleted.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Invalid folder id 'invalid' supplied","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 2 deleted.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Invalid folder id 'invalid' supplied","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 2 deleted.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Invalid folder id 'invalid' supplied","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 123 not found.","level":"error"}
+{"message":"Note with id 2 deleted.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Invalid folder id 'undefined' supplied","level":"error"}
+{"message":"Invalid folder id 'invalid' supplied","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folderid\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - insert or update on table \"notes\" violates foreign key constraint \"notes_folderid_fkey\"","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"note_id is not defined","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"note_id is not defined","level":"error"}
