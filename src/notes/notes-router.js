@@ -98,7 +98,8 @@ NotesRouter
     )
       .then(numRowsAffected => {
         logger.info(`Note with id ${note_id} deleted.`)
-        res.status(204).end()
+        res.status(204)
+          .end()
       })
       .catch(next)
   })
