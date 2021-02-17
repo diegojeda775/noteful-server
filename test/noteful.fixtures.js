@@ -3,7 +3,7 @@ function makeNotesArray() {
         {
             id: 1,
             name: 'Dogs',
-            modified: new Date(),
+            modified: new Date,
             folderid: 3,
             content: 'Content for Dogs',
         },
@@ -43,11 +43,10 @@ function makeFoldersArray() {
 
 function makeMaliciousNote() {
     const maliciousNote = {
-      id: 911,
-      name: 'Naughty naughty very naughty <script>alert("xss");</script>',
-      modified: new Date(),
-        folderid: 1,
-      content: `Bad image <img src="https://url.to.file.which/does-not.exist" onerror="alert(document.cookie);">. But not <strong>all</strong> bad.`,
+      id: 17,
+      name: 'Naughty naughty very naughty <script>alert(\"xss\");</script>',
+      folderid: 1,
+      content: `Bad image <img src=\"https://url.to.file.which/does-not.exist\" onerror=\"alert(document.cookie);\">. But not <strong>all</strong> bad.`,
     }
     const expectedNote = {
       ...maliciousNote,
@@ -62,16 +61,15 @@ function makeMaliciousNote() {
 
 function makeMaliciousFolder() {
     const maliciousFolder = {
-        id: 911,
-        name: 'Naughty naughty very naughty <script>alert("xss");</script>',
+        id: 16,
+        name: 'Naughty naughty very naughty <script>alert(\"xss\");</script>'
     }
     const expectedFolder = {
-        ...maliciousFolder,
-        name: 'Naughty naughty very naughty &lt;script&gt;alert(\"xss\");&lt;/script&gt;',
+        name: 'Naughty naughty very naughty &lt;script&gt;alert(\"xss\");&lt;/script&gt;'
     }
     return {
         maliciousFolder,
-        expectedFolder,
+        expectedFolder
     }
 }
 

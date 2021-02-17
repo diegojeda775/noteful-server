@@ -30,7 +30,7 @@ NotesRouter
     const { name, folderid, content } = req.body
     const newNote = { name, folderid, content }
 
-    for (const field of ['name', 'content']) {
+    for (const field of ['name', 'folderid', 'content']) {
       if (!newNote[field]) {
         logger.error(`${field} is required`)
         return res.status(400).send({
@@ -48,7 +48,7 @@ NotesRouter
         })
     }
 
-        newNote.modified = new Date()
+    newNote.modified = new Date
 
     NotesService.insertNote(
       req.app.get('db'),
@@ -106,6 +106,7 @@ NotesRouter
   .patch(bodyParser, (req, res, next) => {
     const { name, content } = req.body
     const noteToUpdate = { name, content }
+    const { note_id } = req.params
 
     const numberOfValues = Object.values(noteToUpdate).filter(Boolean).length
     if (numberOfValues === 0) {
@@ -118,7 +119,7 @@ NotesRouter
     }
     NotesService.updateNote(
       req.app.get('db'),
-      req.params.note_id,
+      note_id,
       noteToUpdate
     )
       .then(numRowsAffected => {
